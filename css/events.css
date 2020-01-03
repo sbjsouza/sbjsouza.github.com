@@ -1,0 +1,408 @@
+.image_event_mobile{
+    display: none;
+}
+.box{
+    width: 100%;
+}
+.box .btn {
+    background-color: rgba(0, 128, 0, 0);
+    border: 1.5px solid rgb(0, 195, 255);
+    border-radius: 200px;
+    color: white;
+    margin: 8vw;
+    width:100%;
+    height: 40%;
+    margin-top: -38vw ! important;
+    max-width: 16vw;
+    max-height: 7vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.Phrase{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: xx-large;
+    margin-left: 8vw;
+}
+.Subtitle{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
+    margin-left: 8vw;
+    margin-right: -8vw;
+}
+.container{
+    margin-left: -2vw;
+    width: 96%;
+    margin-bottom: 4vw;    
+}
+.back_shape{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 2.5vw;
+    width:92%;
+    margin-left: 8vw;
+    height: 80%;
+    background-color: rgb(68, 138, 255);
+    border-radius: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.228);
+}
+.box_text{
+    width: 90%;
+    display:flexbox;
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin-left: 3vw;
+}
+.box_card{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+.card_discipline{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    width:15vw; 
+    height: 20vw;
+    background-color: white;
+    border-radius: 1vw;
+    margin: 1vw 0vw 1vw 2vw;
+    padding-top: 2vw;
+    /* box-shadow: 0 20px 100px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.193);
+}
+.card_img{
+    display: flex;
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 200vw;
+    margin: auto;
+    margin-top: 1.5vw;
+}
+.card_text{
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-top: 2vw;
+    color:gray;
+}
+.justify_card_doc{
+    width: 100%;
+    height: auto;
+}
+.box_card_doc{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    justify-content: center;
+    margin-top: 4vw;
+    grid-gap: 2.8vw;
+    margin-left: 8vw;
+}
+.card_docente{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    width:20vw; 
+    height: 28vw;
+    background-color: white;
+    border-radius: 1vw;
+    margin: -.8vw 0vw .7vw 0vw;
+    padding-top: 2vw;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.193);
+}
+.card_text_doc{
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 2.5vw;
+    color:gray;
+}
+.card_img_doc{
+    display: flex;
+    width: 9.5vw;
+    height: 9.5vw;
+    border-radius: 200vw;
+    margin: auto;
+    margin-top: 1.5vw;
+}
+.card_subtext_doc{
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 1vw;
+    color:gray;
+}
+.panel-primary .panel-title{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 9%;
+}
+.panel-body{
+    width: 80%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    align-self: center;
+    height: 110%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.173);
+}
+.panel{
+    width: 92%;
+    height: 90%;
+    margin-left: 7vw;
+    margin-right: -7vw;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.173);
+    border: white;
+    border-radius: 5px;
+    background-color:rgb(68, 138, 255);
+    padding-bottom: 8vw;
+}
+.panel-primary .panel-heading{
+    background-color: rgb(68, 138, 255);
+    border-radius: 5px 5px 0px 0px;
+    border-color: rgb(68, 138, 255);
+}
+.jumbotron{
+    background-color: white;
+}
+.subscribe_btn{
+    display: block;
+    width: 0%;
+    margin-left: 7.5%;
+}
+.btn-lg{
+   
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.173);
+    border-color: rgba(255, 255, 255, 0);
+}
+/* 
+    Em cada '@media' existe um estilo para cada proporção de tela 
+    de cada elemento
+*/
+@media (max-width: 959px) and (min-width: 760px) {
+    .subscribe_btn{
+        display: flex;
+        width: 95%;
+        margin-left: 6vw;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .box_card{
+        width: 200%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 1vw;
+    }
+    .card_discipline{
+        width: 90%;
+        height: 90%;
+        padding: 6vw 2vw 2vw 2vw;
+    }
+    .card_img{
+        margin-top: -3vw;
+    }
+    .card_text{
+        margin-top: 2vw;
+        text-align: center;
+    }
+    .box_text{
+        font-size: 5vw;
+        margin-left: 1vw;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 5vw;
+    }
+    .Phrase{
+        width: 95vw;
+        margin-top: 2vw;
+        text-align: center;
+        justify-self: center;
+        margin-left: 2vw;
+    }
+    .Subtitle{
+        text-align: center;
+    }
+    /* card docentes */
+    .justify_card_doc{
+        width:100%;
+        justify-items: center;
+    }
+    .box_card_doc{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20vw;
+        padding-right: 20vw;
+        width: 100%;
+        justify-items: center;
+    }
+    .card_docente{
+        width: 25vw;
+        height: 35vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+    .card_img_doc{
+        width: 12vw;
+        height: 12vw;
+        margin-top: -6vw;
+        margin-bottom: 4vw;
+    }
+    .card_text_doc{
+        margin-top: 2vw;
+        font-size: x-large;
+    }
+    .card_subtext_doc{
+        margin-top: 2vw;
+        font-size: medium;
+    }
+    .box .btn {
+        display: none;
+    }
+}
+/* '@media' responsável pelo layout mobile  */
+@media (max-width: 760px){ 
+    .subscribe_btn{
+        display: flex;
+        width: 95%;
+        margin-left: 6vw;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .image_event{
+        display: none;
+    }
+    .image_event_mobile{
+        display: flex;
+        margin-top: 6vw;
+        margin-bottom: 12vw;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.282);
+    }              
+    .Phrase{
+        width: 94vw;
+        margin-top: 6vw;
+        text-align: center;
+        justify-self: center;
+        margin-left: 1vw;
+    }
+    .Subtitle{
+        text-align: center;
+    }
+    .back_shape{
+        display: flexbox;
+        justify-content: center;
+        margin-top: 4vw;
+    }
+    .box_card{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        justify-content:center;
+        justify-items: center;
+        align-items: center;
+        padding-top: 12vw;
+        padding-bottom: 1vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    .card_discipline{
+        width: 100%;
+        height: 90%;
+        padding-bottom: 8vw;
+        padding-top: 8vw;
+    }
+    .card_img{
+        width: 22vw;
+        height: 22vw;
+    }
+    .card_text{
+        margin-top: 3vw;
+        font-size: x-large;
+        text-align: center;
+    }
+    .box_text{
+        justify-content: center;
+        width: 40vw;
+        display: block; 
+        position: absolute;
+        font-size: 6vw;
+        text-align: center;
+        margin: 0;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+        white-space: nowrap;
+    }
+    .box_text br{
+        display: none;
+    }
+    .box_text u{
+        text-decoration: none;
+    }
+    .justify_card_doc{
+        width:100%;
+        justify-items: center;
+    }
+    .box_card_doc{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20vw;
+        padding-right: 20vw;
+        width: 100%;
+        justify-items: center;
+        margin-bottom: 0vw;
+        margin-top: 6vw;
+    }
+    .card_docente{
+        min-width: 300px;
+        height: 400px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-radius: 2vw;
+        margin: 0vw 0vw 2vw 0vw;
+    }
+    .card_img_doc{
+        width: 150px;
+        height: 150px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .card_text_doc{
+        margin-top: 40px;
+        font-size: x-large;
+    }
+    .card_subtext_doc{
+        margin-top: 20px;
+        font-size: medium;
+    }
+    .box .btn {
+        display: none;
+    }
+    .panel-primary .panel-title{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: x-large;
+        font-weight: bold;
+        margin-left: 6vw;
+    }
+}
