@@ -29,11 +29,11 @@
     margin-left: 8vw;
     margin-right: -8vw;
 }
-.container{
+/* .container{
     margin-left: -2vw;
     width: 96%;
     margin-bottom: 4vw;    
-}
+} */
 .back_shape{
     display:flex;
     justify-content: flex-end;
