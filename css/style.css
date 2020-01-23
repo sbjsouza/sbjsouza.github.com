@@ -161,6 +161,9 @@ body, html {
     .hero-image {
         height: 55%;
     }
+    .hero-image-team {
+        height: 55%;
+    }
     .card_menu{
         justify-content: center;
     }
@@ -172,6 +175,49 @@ body, html {
     }
 }
 
+/* Team page */
+.hero-image-team{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/team_background.jpg");
+    height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.circle{
+    border-radius: 10000px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    flex: 1 0 21%;
+}
+
+.team_card{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    max-width: 250px;
+    height: auto; 
+    border-radius: 10px;
+}
+
+.team_card_title{
+    margin-top: 10px !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: bold !important;
+    font-size: large !important;
+    text-align: center !important;
+}
+.btn .btn-primary{
+    display: block;
+    margin: 0 auto !important;
+}
+.btn {
+    background-color: #00B2FF;
+}
 /* Nav Bar */
 
 .navbar-brand  span{
