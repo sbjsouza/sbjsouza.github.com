@@ -18,11 +18,16 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="/css/events.css">
     <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
     
     <!-- Animations-->
     <script src="https://unpkg.com/scrollreveal"></script>
+    
     
 
     <!-- Google Fonts -->
@@ -311,7 +316,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner" style="position:absolute;z-index: 1;">
     <div class="container">
-        <a class="navbar-brand" href="#"><span>AiBoxLab</span></a>
+        <a class="navbar-brand" href="/"><span>AiBoxLab</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -319,19 +324,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="team">Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#home">Publications</a>
+                <a class="nav-link" href="publications">Publications</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li> 
             <!-- Dropdown -->
             </ul>
@@ -536,6 +541,13 @@
         </div>
     </div>
 </div>
+<script>
+    ScrollReveal().reveal('.title', { duration: 1000 });
+    ScrollReveal().reveal('.subtitle', { duration: 1300 });
+    ScrollReveal().reveal('.card_projects', { duration: 1300 });
+    ScrollReveal().reveal('.card_home_partner', { duration: 1300 });
+    ScrollReveal().reveal('.card_home_partnership', { duration: 1300 });
+</script>
            
     <section id="footer">
     <div class="container">

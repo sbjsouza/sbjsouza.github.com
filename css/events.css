@@ -36,15 +36,12 @@
 } */
 .back_shape{
     display:flex;
-    justify-content: flex-end;
-    margin-top: 2.5vw;
-    width:92%;
-    margin-left: 8vw;
-    height: 80%;
-    background-color: rgb(68, 138, 255);
-    border-radius: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    width: 100%;
+    height:auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #00B2FF;
+    border-radius: 15px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.228);
 }
 .box_text{

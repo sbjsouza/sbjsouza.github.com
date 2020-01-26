@@ -18,11 +18,16 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="/css/events.css">
     <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
     
     <!-- Animations-->
     <script src="https://unpkg.com/scrollreveal"></script>
+    
     
 
     <!-- Google Fonts -->
@@ -311,7 +316,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner" style="position:absolute;z-index: 1;">
     <div class="container">
-        <a class="navbar-brand" href="#"><span>AiBoxLab</span></a>
+        <a class="navbar-brand" href="/"><span>AiBoxLab</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -319,19 +324,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="team">Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#home">Publications</a>
+                <a class="nav-link" href="publications">Publications</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li> 
             <!-- Dropdown -->
             </ul>
@@ -364,7 +369,7 @@
             <h1 class="title">Where to Find Us?</h1>
             <h5 class="subtitle"><u>By Email</u></h5>
             <h5 class="subtitle">
-                <p class="sub_text" style="margin-top: -40px;margin-bottom: -40px;">
+                <p class="sub_text" style="margin-top: -40px;margin-bottom: -40px;font-weight: 600;">
                     aiboxlab@gmail.com
                 </p>
             </h5>
@@ -383,10 +388,14 @@
                 <iframe class="card_projects justify-content-center flex-column" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.819423355241!2d-34.94648668538347!3d-8.017548994226392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1991314f29a9%3A0x5d682e58e902763a!2sAIBox%20Lab!5e0!3m2!1spt-BR!2sbr!4v1580005356149!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
-    </div>
-
-    
+    </div>    
 </div>
+
+<script>
+    ScrollReveal().reveal('.title', { duration: 1000 });
+    ScrollReveal().reveal('.subtitle', { duration: 1300 });
+    ScrollReveal().reveal('.card_projects', { duration: 1300 });
+</script>
 
 <!-- End Our team -->
            

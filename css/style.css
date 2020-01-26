@@ -340,6 +340,25 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 	padding-top:30px;
 }
 
+/* Publications Page */
+
+.card_publications{
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    overflow: scroll;
+    height: 670px;
+}
+
+.card_publication{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+}
 
 /* mobile view */
 @media (max-width:767px)
