@@ -345,9 +345,11 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .card_publications{
     justify-content: space-around;
     margin-top: 20px;
+    width: 100%;
+    padding:0% 10% 0% 10%;
     padding-bottom: 40px;
     overflow: scroll;
-    height: 670px;
+    height: 770px;
 }
 
 .card_publication{
@@ -358,8 +360,27 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.18);
     border-radius: 10px;
+    display: inline-block;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(233, 233, 233, 0); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 /* mobile view */
 @media (max-width:767px)
 {

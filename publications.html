@@ -323,30 +323,38 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="team">Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="publications">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact">Contact</a>
-            </li> 
-            <!-- Dropdown -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Education
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/pos">Pós Graduação</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li> 
+                <!-- Dropdown -->
             </ul>
         </div>
     </div>
 </nav>
  
-        <body>
-    
-<div class="hero-image-team">
+        <div class="hero-image-team">
     <div  class="hero-text">
        <h1 class="text">SEE OUR LAST<br/><h1 class="blue_text">PUBLICATIONS</h1></h1>
     </div> 
@@ -363,19 +371,50 @@
     </div>
 </div>
 
+
+
 <br /><br />
 <bibtex src="/bibtex/andre.bib"></bibtex>
 <!-- <bibtex src="text1.bib"></bibtex> -->
 <div class="background_home">
-    <div  class="container justify-content-center" style="margin-top: 45px;">
-        <div style="padding: 10%;margin-top: -10%;" class="container">
-            <div  class="card_publications d-flex flex-wrap">
-                <div class="bibtex_template">
-                    <div class="card_publication justify-content-center flex-column">
+    <div class="container">
+        <h2 class="title">AWARDS</h2>
+        <h5 class="subtitle">
+            <p class="sub_text">Successful research is a team work. We are always glad to new team members and ready to hear about your ideas and interests. 
+            We are looking for perspective students, from undergraduate to M.Sc. and Ph.D's</p>
+        </h5>
+        <div  class="card_menu d-flex flex-wrap">
+            <div  class="card_home justify-content-center flex-column">
+                <img class="card_icon" src="https://cdn0.iconfinder.com/data/icons/collection-of-medical-equipment/32/Medical_-_Outline-23-512.png" width="50" height="50">
+                <h1 class="card_title">Research</h1>
+                <h5 class="card_subtitle">High Impact and innovative projects involving artificial intelligence.</h5>
+            </div>
+            <div class="card_home justify-content-center flex-column">
+                <img class="card_icon" src="https://cdn0.iconfinder.com/data/icons/collection-of-medical-equipment/32/Medical_-_Outline-23-512.png" width="50" height="50">
+                <h1 class="card_title">Research</h1>
+                <h5 class="card_subtitle">High Impact and innovative projects involving artificial intelligence.</h5>
+            </div>
+            <div class="card_home justify-content-center flex-column">
+                <img class="card_icon" src="https://cdn0.iconfinder.com/data/icons/collection-of-medical-equipment/32/Medical_-_Outline-23-512.png" width="50" height="50">
+                <h1 class="card_title">Research</h1>
+                <h5 class="card_subtitle">High Impact and innovative projects involving artificial intelligence.</h5>
+            </div>
+            <div class="card_home justify-content-center flex-column">
+                <img class="card_icon" src="https://cdn0.iconfinder.com/data/icons/collection-of-medical-equipment/32/Medical_-_Outline-23-512.png" width="50" height="50">
+                <h1 class="card_title">Research</h1>
+                <h5 class="card_subtitle">High Impact and innovative projects involving artificial intelligence.</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container justify-content-center" style="margin-top: 45px;">
+        <h2 class="title">PUBLICATIONS</h2>
+        <div style="padding-top: 10%;margin-top: -10%;" class="container">
+            <div class="card_publications d-flex flex-wrap">
+                <div class="bibtex_template" style="display: inline-block;z-index: 2;">
+                    <div class="card_publication justify-content-center flex-row">
                         <div style="display: block;padding: 50px;" class="if author">
                             <span style="color: black; font-size: large; font-family: 'Barlow', sans-serif;" class="title" ></span>
                             <span style="display: flex;color: black; font-size: large; font-family: 'Barlow', sans-serif;font-weight: 200;" class="author"></span>
-                            
                             <span style="font-weight: 500;" class="if pages"> pages <span class="pages"></span>,</span>
                             <span class="if booktitle">In <em><span class="booktitle"></span></em>.</span>
                             <span class="if journal"><em><span class="journal"></span></em>.</span>
@@ -394,27 +433,24 @@
                                     </p>
                                 </a>
                             </span>
-                            
                         </div>
-                        
                     </div>
-                        
                 </div>
-
-                <div class="bibtex_structure">
+                <div class="bibtex_structure ">
                     <div class="group year" extra="DESC number">
                         <h3 class="title"></h2>
                         <div class="templates"></div>
                         <br />
                     </div>
                 </div>
-                <div id="bibtex_display"></div>
+                <div id="bibtex_display" class="card_publications d-flex flex-wrap">
                 </div>
             </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <script>
     // ScrollReveal().reveal('.title', { duration: 1000 });
@@ -423,7 +459,6 @@
     // ScrollReveal().reveal('.card_home_partner', { duration: 1300 });
     // ScrollReveal().reveal('.card_home_partnership', { duration: 1300 });
 </script>
-</body>
            
     <section id="footer">
     <div class="container">
