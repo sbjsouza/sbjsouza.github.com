@@ -277,6 +277,10 @@
     .box .btn {
         display: none;
     }
+    .panel-body{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
 }
 /* '@media' responsável pelo layout mobile  */
 @media (max-width: 760px){ 
@@ -401,5 +405,9 @@
         font-size: x-large;
         font-weight: bold;
         margin-left: 6vw;
+    }
+    .panel-body{
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
