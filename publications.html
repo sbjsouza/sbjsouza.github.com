@@ -376,7 +376,7 @@
 <br /><br />
 <bibtex src="/bibtex/andre.bib"></bibtex>
 <!-- <bibtex src="text1.bib"></bibtex> -->
-<div class="background_home">
+<div class="background_home" style="margin-bottom: -90px;">
     <div class="container">
         <h2 class="title">AWARDS</h2>
         <h5 class="subtitle">
@@ -406,13 +406,13 @@
             </div>
         </div>
     </div>
-    <div class="container justify-content-center" style="margin-top: 45px;">
-        <h2 class="title">PUBLICATIONS</h2>
-        <div style="padding-top: 10%;margin-top: -10%;" class="container">
-            <div class="card_publications d-flex flex-wrap">
-                <div class="bibtex_template" style="display: inline-block;z-index: 2;">
-                    <div class="card_publication justify-content-center flex-row">
-                        <div style="display: block;padding: 50px;" class="if author">
+    <div class="container justify-content-center" style="margin-top: 45px;" >
+        <h2 class="title" >PUBLICATIONS</h2>
+        <div style="padding-top: 8%;margin-top: -10%; width: 100%;">
+            <div class="d-flex flex-wrap" style="width: 100%;">
+                <div class="bibtex_template" style="padding:0;margin: 0;height: auto;">
+                    <div class="card_publication" style="padding:0">
+                        <div style="padding: 25px;" class="if author">
                             <span style="color: black; font-size: large; font-family: 'Barlow', sans-serif;" class="title" ></span>
                             <span style="display: flex;color: black; font-size: large; font-family: 'Barlow', sans-serif;font-weight: 200;" class="author"></span>
                             <span style="font-weight: 500;" class="if pages"> pages <span class="pages"></span>,</span>
@@ -436,14 +436,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="bibtex_structure ">
+                <div class="bibtex_structure" style="width: 100%;padding:0" >
                     <div class="group year" extra="DESC number">
-                        <h3 class="title"></h2>
-                        <div class="templates"></div>
+                        <h3 class="title" style="width: 100%;padding:0"></h3>
+                        <div class="templates card_publications d-flex flex-wrap" style="justify-content: space-evenly;height: auto;width: 100% !important;padding:0">
+                        </div>
                         <br />
                     </div>
                 </div>
-                <div id="bibtex_display" class="card_publications d-flex flex-wrap">
+                <div id="bibtex_display" class="card_publications d-flex flex-wrap" style="width: 100%;">
                 </div>
             </div>
             </div>
@@ -454,10 +455,10 @@
 
 <script>
     // ScrollReveal().reveal('.title', { duration: 1000 });
-    // ScrollReveal().reveal('.subtitle', { duration: 1300 });
-    // ScrollReveal().reveal('card_publications', { duration: 1300 });
-    // ScrollReveal().reveal('.card_home_partner', { duration: 1300 });
-    // ScrollReveal().reveal('.card_home_partnership', { duration: 1300 });
+    ScrollReveal().reveal('.subtitle', { duration: 1300 });
+    ScrollReveal().reveal('card_publications', { duration: 1300 });
+    ScrollReveal().reveal('.card_home_partner', { duration: 1300 });
+    ScrollReveal().reveal('.card_home_partnership', { duration: 1300 });
 </script>
            
     <section id="footer">
