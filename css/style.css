@@ -350,25 +350,26 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     padding-bottom: 40px;
     overflow: scroll;
     height: 670px;
-    float: left;
     display: flex;
 }
 
 .card_publication{
     margin-top: 30px;
-    /* width: 50%; */
-    max-width: 400px;
+    width: 260px;
+    max-width: 260px;
     height: auto; 
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.18);
     border-radius: 10px;
-    /* display: inline-block; */
     
 }
 
 /* mobile view */
 @media (max-width:767px)
 {
+    .card_publication{
+        height: auto;
+    }
 	.navbar-nav{
 		background-color:#000;
 		border-top:3px solid #00B2FF;
