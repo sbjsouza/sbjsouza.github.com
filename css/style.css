@@ -367,6 +367,10 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 /* mobile view */
 @media (max-width:767px)
 {
+    .text{
+        font-size: xx-large;
+        margin-top: -20px;
+    }
     .card_publication{
         height: auto;
     }
